@@ -56,7 +56,17 @@ public class SfgDiApplication {
 		System.out.println(fakeDataSource.getPassword());
 		System.out.println(fakeDataSource.getJdbcurl());
 
-
+/**
+ *
+ * We may overide the properties on application.properties files through:
+ *  1. Program Args
+ *  	Putting on the "Edit Configuration" on Program Args the
+ * 		--guru.password=PasswdFromCommandLine
+ * 2. Environment Variables
+ *  	Putting on the "Edit Configuration" on Environment Vars the
+ * 		GURU_USERNAME=UserNameFromEditConfig
+ *
+ */
 	}
 
 }
